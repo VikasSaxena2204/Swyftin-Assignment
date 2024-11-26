@@ -91,7 +91,7 @@ const Chat = () => {
                 className={`absolute ${msg.user === 'You' ? 'right-2 bottom-[-30px]' : 'left-2 bottom-[-30px]'} text-gray-600 group`}
                 aria-label="Reply"
               >
-                <div className="relative p-1 border border-gray-500 rounded-lg mb-1">
+                <div className="w-auto relative p-1 border border-gray-500 rounded-lg mb-1">
                   <FiArrowLeft size={16} />
                   <span className="w-auto absolute inset-0 flex items-center justify-center text-xs text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity bg-white p-1 rounded-md shadow-md">
                     Reply
